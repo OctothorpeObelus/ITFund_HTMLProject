@@ -1,0 +1,43 @@
+		body {
+		    background-image: url("graphics/bg.png");
+		    background-repeat: repeat;
+		    font-family: 'Open Sans', sans-serif;
+		}
+		div{
+			background-color: white;
+			border-radius: 10px;
+		}
+		#title {
+			width:fit-content;
+			font-size:250%;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		#body {
+			padding: 10px;
+		}
+		#tabs {
+		    list-style-type: none;
+		    font-family:'Open Sans', sans-serif;
+		    font-size:20px;
+		    margin: 0;
+		    padding: 0;
+		    overflow: hidden;
+		    background-color:RGB(255,255,255);
+		    width:90%;
+			border-radius:10px;
+		}
+		li {
+		    float: left;
+		}
+		li a {
+		    display: block;
+		    color: orange;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		}
+		li a:hover {
+		    background-color: #111;
+		    color:red;
+		}
